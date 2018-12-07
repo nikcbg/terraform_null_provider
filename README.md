@@ -1,7 +1,7 @@
 # terraform_null_provider
 
 ### Purpose of the repository 
-- The repository is to test `null_resputce` provider with Terraform.
+- The repository is to test `null_resource` provider with Terraform.
 
 #### List of files in the repository
 
@@ -14,7 +14,7 @@ File name                            | File description
 - Clone the repository to your local computer: `git clone git@github.com:nikcbg/terraform_null_provider.git`.
 - Go to the cloned repo on your computer: `cd terraform_null_provider`.
 
-### Commands needed to test the `null_resource` provider
+### Commands needed to build and apply execution plan for the `null_resource` provider.
 
 Command execution                    | Command outcome
 ------------------------------------ | --------------------------------------------------------------
