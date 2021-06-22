@@ -3,3 +3,7 @@ resource "null_resource" "example" {
     command = "echo example"
   }
 }
+
+output "test" {
+  value = null_resource.example.local-exec-output
+}
