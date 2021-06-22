@@ -5,5 +5,5 @@ resource "null_resource" "example" {
 }
 
 output "test" {
-  value = null_resource.example.local-exec-output
+  value = null_resource.example.local-exec
 }
